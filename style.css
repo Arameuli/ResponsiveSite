@@ -1,0 +1,27 @@
+*{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+body{
+    background-color:blueviolet;
+}
+.header{
+    background-color: gray;
+}
+@media (min-width: 481px) and (max-width: 768px){
+    body{
+        background-color: aqua;
+    }
+    .header{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 769px){
+    body{
+        background-color: red;
+    }
+    .header{
+        background-color: pink;
+    }
+}
